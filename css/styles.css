@@ -18,6 +18,10 @@ div {
     margin-top: 0.7em;
 }
 
+td::first-letter, th:first-child::first-letter {
+    text-transform: uppercase;
+}
+
 td, th {
     padding: 1em 2em;
 }
